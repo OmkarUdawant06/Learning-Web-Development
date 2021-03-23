@@ -1,0 +1,61 @@
+body {
+  background-color: #fcf8e8;
+  background-image:
+  linear-gradient(to right, rgba(236,244,190,81), rgba(0,0,255,0.5)),
+  url('https://media.giphy.com/media/fXyfpPeT5y9iTbagj5/giphy.gif');
+  background-size: cover;
+  font-size: 22px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+hr {
+  /*background-color: grey;*/
+  border-style: none;
+  border-top: 10px dotted #dddddd;
+  width: 4%;
+}
+h1 {
+  color: #28527a;
+  font-family: "Papyrus";
+}
+
+h3, h4 {
+  text-align: center;
+  color: #28527a;
+}
+
+.intro {
+  font-family: "Papyrus";
+}
+
+.profile-pic {
+  border-radius: 100%;
+}
+
+.stars:hover {
+  color: #ff9529;
+}
+
+.magnify {
+  transition: transform .2s;
+}
+
+.magnify:hover{
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+.magnify-max {
+  transition: transform .2s;
+}
+
+.magnify-max:hover{
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
